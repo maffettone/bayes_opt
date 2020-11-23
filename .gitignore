@@ -53,4 +53,7 @@ sandbox/*
 
 #Exceptions to the above#
 ######################## (use !)
-
+!sandbox/BasicTour.ipynb
+!sandbox/Visualization.ipynb
+!sandbox/experiment.py
+!sandbox/plotting.py

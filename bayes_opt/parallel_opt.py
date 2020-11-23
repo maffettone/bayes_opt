@@ -713,8 +713,7 @@ def disc_capitalist_max(instance, exp_mean=1, n_splits=4, n_acqs=4, n_warmup=100
                                         n_acqs=market_sizes[i],
                                         n_warmup=n_warmup,
                                         n_iter=n_iter,
-                                        multiprocessing=multiprocessing,
-                                        complements=complements)
+                                        multiprocessing=multiprocessing)
                 for trial in trial_results:
                     if _hashable(trial) not in results:
                         results.append(_hashable(trial))
